@@ -1,4 +1,4 @@
 {
-    prjName: "project-name",
-    description: "write a short description",
+    "prjName": "project-name",
+    "description": "write a short description"
 }
