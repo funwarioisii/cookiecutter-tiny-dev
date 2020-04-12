@@ -3,6 +3,8 @@ export CONTAINER_NAME={{ cookiecutter.prjName}}-container
 export JUPYTER_HOST_PORT=8888
 export DOCKERFILE=Dockerfile
 
+all: create-image create-container
+
 create-image:
 	docker build \
 		-t $(IMAGE_NAME) \
