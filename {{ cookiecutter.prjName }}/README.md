@@ -1,0 +1,3 @@
+# {{ cookiecutter.prjName }}
+
+{{ cookiecutter.description }}
