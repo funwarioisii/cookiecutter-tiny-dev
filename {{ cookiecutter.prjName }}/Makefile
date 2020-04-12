@@ -14,7 +14,7 @@ create-container:
 	docker run \
 		-it \
 		-v $(PWD):/work \
-		-p $(JUPYTER_HOST_PORT): 8888 \
+		-p $(JUPYTER_HOST_PORT):8888 \
 		--name $(CONTAINER_NAME) \
 		$(IMAGE_NAME)
 
