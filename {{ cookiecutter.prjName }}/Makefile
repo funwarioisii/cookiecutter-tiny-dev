@@ -6,7 +6,8 @@ export DOCKERFILE=Dockerfile
 create-image:
 	docker build \
 		-t $(IMAGE_NAME) \
-		-f (DOCKERFILE)
+		-f $(DOCKERFILE) \
+		.
 
 
 create-container:
